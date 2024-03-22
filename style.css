@@ -1,0 +1,49 @@
+body{
+    font-family:sans-serif;
+}
+header{
+    text-align:center;
+}
+header img{
+    max-width:75%;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+}
+article{
+    background-color:azure;
+    border:1px solid black;
+    padding:20px;
+}
+
+#mainNav {
+    background-color: red; /* Light gray background */
+    border-bottom: 1px solid #ccc; /* Add a border to the bottom */
+    padding:1px;
+    padding-right:40px;
+  }
+  
+  #mainNav ul {
+    display: flex; /* Make the list items flexbox items */
+    justify-content: space-between; /* Distribute links evenly */
+    list-style-type:none;    
+  }
+  
+  #mainNav ul li a {
+    text-decoration: none; /* Remove underlines */
+    color: black; /* Text color */
+    text-align: center;
+  }
+#s{
+    display:flex;
+    margin:15px auto;
+    padding:1px 20px;
+    border-radius:1px;
+    text-align:center;
+  
+}
+ 
+  
+  
